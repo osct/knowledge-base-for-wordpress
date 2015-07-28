@@ -4,9 +4,7 @@ CONFIGURATION amcharts-charts-and-maps plugin
 
 
 
-**Download:**
-
-https://wordpress.org/plugins/amcharts-charts-and-maps/
+**Download:** https://wordpress.org/plugins/amcharts-charts-and-maps/
 
 Last version https://downloads.wordpress.org/plugin/amcharts-charts-and-maps.1.0.9.zip
 
@@ -17,15 +15,36 @@ Use WordPress Plugin page to search and install the amCharts plugin.
 
 If you choose to install in manually, make sure all the files from the downloaded archive are placed into your /wp-content/plugins/amcharts/ directory.
 
-**USE**
+**Usage**
 
-For create new charts  using presets left from the Admin menu.
+Create new charts  using presets left from the Admin menu.
+
+
+.. image:: figures-docs/add-map.png
+   :align: center
+
+
 
 Modify resources, HTML and  JavaScript portion of the map. NOT apply defaults value.
 
+.. image:: figures-docs/edit-map.png
+   :align: center
 
 
-**Create "Country View - MAP"**
+Add map into the page content
+
+Chart tools: Use this field to enter a user-friendly slug (ID) for your chart that can be used in shortcodes, i.e. [amcharts id="chart-1"]
+
+or
+
+.. image:: figures-docs/add-map-page.png
+   :align: center
+
+
+**Configuration**
+
+
+***Create "Country View - MAP"***
 
 
 
@@ -132,9 +151,6 @@ JavaScript
         });
             
 
-**Chart tools**
-
-Use this field to enter a user-friendly slug (ID) for your chart that can be used in shortcodes, i.e. [amcharts id="chart-1"]
 
 
 **OADR Repositories - MAP**
