@@ -1,19 +1,23 @@
+=============================================
+CONFIGURATION amcharts-charts-and-maps plugin
+=============================================
 
 
-*Download:* 
+
+**Download:**
 
 https://wordpress.org/plugins/amcharts-charts-and-maps/
 
 Last version https://downloads.wordpress.org/plugin/amcharts-charts-and-maps.1.0.9.zip
 
 
-*Installation:*
+**Installation:**
 
 Use WordPress Plugin page to search and install the amCharts plugin.
 
 If you choose to install in manually, make sure all the files from the downloaded archive are placed into your /wp-content/plugins/amcharts/ directory.
 
-*USE*
+**USE**
 
 For create new charts  using presets left from the Admin menu.
 
@@ -51,7 +55,7 @@ JavaScript
 
 
 
-var %CHART% = AmCharts.makeChart("%CHART%", {
+	var %CHART% = AmCharts.makeChart("%CHART%", {
             
         "type": "map",
         "theme": "none",
@@ -73,11 +77,11 @@ var %CHART% = AmCharts.makeChart("%CHART%", {
         "rollOverColor" : "#9DF5A0",
         "rollOverOutlineColor" : "#FFFFFF"
         }
-     }
-     );
+     	}
+     	);
             
 
-  %CHART%.addListener("clickMapObject", function (event) {
+  	%CHART%.addListener("clickMapObject", function (event) {
         if ( event.mapObject.IdF == null)
         var idf = "Non existent";
         else
@@ -121,11 +125,14 @@ var %CHART% = AmCharts.makeChart("%CHART%", {
         '<p><img src=http://grid.ct.infn.it/knowledge-base/api/flags/' + event.mapObject.ISOcode +'.png >' + event.mapObject.title
         + '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/network_wired.png>Regional Network: ' + REG
         + '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/wireless.png>National Research Education Network:' + NREN 
-        + '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/ngi.png> National Grid Initiative: ' + NGI + '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/ca.png>Certification Authority:' + CA + '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/IdF.png>Identity federation: ' + idf +  '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/roc.png>Regional Operation Centre(s): ' + ROC + '</p>';
+        + '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/ngi.png> National Grid Initiative: ' 
+	+ NGI + '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/ca.png>Certification Authority:' 
+	+ CA + '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/IdF.png>Identity federation: ' 
+	+ idf +  '</p><p><img src=http://grid.ct.infn.it/knowledge-base/api/icons/roc.png>Regional Operation Centre(s): ' + ROC + '</p>';
         });
             
 
-*Chart tools*
+**Chart tools**
 
 Use this field to enter a user-friendly slug (ID) for your chart that can be used in shortcodes, i.e. [amcharts id="chart-1"]
 
