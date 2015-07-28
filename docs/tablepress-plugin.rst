@@ -67,5 +67,7 @@ example
 [table id=1 column_widths="20%|60%|20%"/]
 
 
+**Download**
 
+:download:`Table-View-OADR-Repositories xls file <figures-docs/Table-View-OADR.xls>`.
 
