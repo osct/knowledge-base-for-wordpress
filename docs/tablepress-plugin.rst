@@ -53,6 +53,11 @@ Then the import of the table add "Custom Commands":
 
 
 
+.. image:: figures-docs/custom-code.png
+   :align: center
+
+
+
 
 Add table in a page 
 
