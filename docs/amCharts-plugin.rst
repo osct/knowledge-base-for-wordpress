@@ -1,5 +1,5 @@
 =============================================
-CONFIGURATION amcharts-charts-and-maps plugin
+amCharts: Charts and Maps - Plugin
 =============================================
 
 
@@ -14,6 +14,8 @@ Last version https://downloads.wordpress.org/plugin/amcharts-charts-and-maps.1.0
 Use WordPress Plugin page to search and install the amCharts plugin.
 
 If you choose to install in manually, make sure all the files from the downloaded archive are placed into your /wp-content/plugins/amcharts/ directory.
+
+After the installation, you'll just have to activate the amcharts-charts-and-maps plugin.
 
 **Usage**
 
@@ -31,7 +33,7 @@ Modify resources, HTML and  JavaScript portion of the map. NOT apply defaults va
    :align: center
 
 
-Add map into the page content
+Add map in a page
 
 Chart tools: Use this field to enter a user-friendly slug (ID) for your chart that can be used in shortcodes, i.e. [amcharts id="chart-1"]
 
@@ -39,6 +41,28 @@ or
 
 .. image:: figures-docs/add-map-page.png
    :align: center
+
+
+**Custom CSS**
+
+Edit wp-content/themes/your-theme/style.css
+
+
+::
+
+	#chartdiv {
+  	width: 100%;
+  	height: 400px;
+	}
+
+	#placeholder {
+  	padding: 10px;
+  	background-color: #dedede;
+	}
+
+	#info p {
+  	margin: 5px;
+	}
 
 
 **Configuration**
