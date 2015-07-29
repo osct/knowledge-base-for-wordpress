@@ -70,4 +70,6 @@ example
 **Download**
 
 :download:`Table-View-OADR-Repositories xls file <figures-docs/Table-View-OADR.xls>`.
+:download:`Table-View-DR-Repositories xls file <figures-docs/Table-View-DR.xls>`.
+:download:`Table-View-OER-Repositories xls file <figures-docs/Table-View-OER.xls>`.
 
